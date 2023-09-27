@@ -1,4 +1,3 @@
-import "./Header.scss";
 
 import { useEffect, useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
@@ -13,7 +12,26 @@ import "./Header.scss";
 
 
 const Header = () => {
-    return <div></div>;
+    return (
+        <div className="header-content">
+            <ul className="left">
+                <li>Home</li>
+                <li>About</li>
+                <li>Categories</li>
+            </ul>
+            <div className="center" >
+                WADSTORE
+            </div>
+            <div className="right">
+                <TbSearch />
+                <CgShoppingCart />
+                <AiOutlineHeart />
+
+            </div>
+        </div>
+
+    );
 };
+
 
 export default Header;
