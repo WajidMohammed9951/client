@@ -19,6 +19,7 @@ function App() {
                     <Route path="/Category/:id" element={<Category />} />
                     <Route path="/product/:id" element={<SingleProduct />} />
 
+
                 </Routes>
                 <Newsletter />
                 <Footer />

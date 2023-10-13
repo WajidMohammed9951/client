@@ -25,7 +25,13 @@ const Header = () => {
             <div className="right">
                 <TbSearch />
                 <CgShoppingCart />
-                <AiOutlineHeart />
+                <span className="cart-icon">
+                    
+
+                    <AiOutlineHeart />
+
+
+                </span>
 
             </div>
         </div>
